@@ -1,0 +1,85 @@
+body {
+	font-family: "Work Sans", sans-serif;
+}
+
+#logo-bar {
+	height: auto;
+	padding-top: .8rem;
+	background: white !important;
+}
+
+#logo-bar .navbar-brand {
+	margin: 0 auto;
+	padding: 0;
+}
+
+#menu-bar {
+	background: white !important;
+	text-transform: uppercase;
+}
+
+#menu-bar .navbar-nav {
+	margin: 0 auto;
+	height: 35px;
+	padding-top: .2rem;
+}
+
+#menu-bar .nav-brand {
+	padding: 0 2rem;
+	text-decoration: none;
+	color: #0253A0;
+}
+
+.navbar-toggler {
+	width: 80%;
+	margin: 0 auto;
+	border-color: rgba(2, 83, 160, .5) !important;
+}
+
+.toggler-icon hr {
+	border: 1px solid #0253A0;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+}
+
+.navbar-nav .nav-item .nav-link {
+	padding: 0 2rem;
+	padding-top: .15rem;
+	color: #0253A0;
+}
+
+#menu-bar .nav-brand:hover, .navbar-nav .nav-item .nav-link:hover {
+	color: #0253A0;
+	font-weight: 600;
+}
+
+#content {
+	margin-top: 3.2rem;
+	min-height: 100vh;
+}
+
+.main-title-bg {
+	background-color: #EEEEEE;
+	padding: 2rem 0;
+}
+
+.main-title {
+	text-align: center;
+	color: #FF751C;
+	font-weight: 600;
+}
+
+#form-section {
+	padding-top: 2rem;
+}
+
+#footer {
+	color: white;
+	text-align: center;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+}
+
+#footer p {
+	margin: 0;
+}

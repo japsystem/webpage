@@ -1,0 +1,14 @@
+PAGINA DE JAP SYSTEM:
+
++ Páginas:
+    -Inicio
+    -Nosotros
+    -Servicios
+        -Apps
+        -Páginas Web
+        -ERP
+        -Equipos Informáticos
+    -Portafolio
+    -Contacto
+
++ 
