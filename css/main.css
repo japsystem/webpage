@@ -30,7 +30,7 @@ body {
 #menu-bar .nav-brand {
 	text-decoration: none;
 	border: 1px solid rgba(252, 116, 42, .5);
-	border-radius: 7px;
+	border-radius: 10px;
 	color: #0253A0;
 	padding-right: 1em;
 	transition: all .3s;
@@ -98,8 +98,16 @@ body {
 	margin: 0 auto;
 }
 
+.contact-bg {
+	background-image: url(../img/contact-bg.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
 #form-section, #c-info-section {
 	margin-top: 4rem;
+	background: none;
 }
 
 #c-info-card {
