@@ -1,6 +1,5 @@
 body {
 	font-family: "Work Sans", sans-serif;
-	background-color: black;
 }
 
 #index-logo {
@@ -16,7 +15,8 @@ body {
 
 #index-menu {
 	height: 35px;
-	padding-top: .2rem;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
 }
 
 #index-menu .navbar-nav {
@@ -26,17 +26,22 @@ body {
 #index-menu, #menu-bar {
 	background: white !important;
 	text-transform: uppercase;
+	box-shadow: 0 8px 8px rgba(0, 0, 200, .2);
 }
 
 #menu-bar .nav-brand {
 	text-decoration: none;
+	padding-right: 1em;
 	border: 1px solid rgba(252, 116, 42, .5);
 	border-radius: 10px;
 	color: #0253A0;
-	padding-right: 1em;
 	transition: all .3s;
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
+}
+
+#menu-bar .nav-brand img {
+	margin-right: .8em;
 }
 
 #menu-bar .nav-brand:hover {
@@ -82,6 +87,34 @@ body {
 	min-height: 100vh;
 }
 
+.news-article {
+	background: rgba(180, 180, 200, .5);
+	display: inline-flex;
+	max-height: 200px;
+}
+
+.news-thumb {
+	position: relative;
+	width: 200px;
+	height: auto;
+	overflow: hidden;
+}
+
+.news-thumb img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	height: 100%;
+	width: auto;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+}
+
+.news-text {
+	
+}
+
 .main-title-bg {
 	background-color: #EEEEEE;
 	padding: 2rem 0;
@@ -106,6 +139,11 @@ body {
 
 .contact-bg .row {
 	margin: 0 auto;
+}
+
+#form-section {
+	padding-top: 1rem;
+	border: 3px solid rgba(255, 255, 255, .5);
 }
 
 #form-section, #c-info-section {
