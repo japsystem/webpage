@@ -1,0 +1,7 @@
+#product-1 {
+	height: 28rem;
+	background-image: url(../img/phone.png);
+	background-size: 25%;
+	background-repeat: no-repeat;
+	background-position: 90% 10%;
+}

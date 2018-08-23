@@ -8,6 +8,10 @@ h1, h2 {
 	color: #19539c;
 }
 
+#content {
+	min-height: 100vh;
+}
+
 #index-logo {
 	height: auto;
 	padding-top: .8rem;
@@ -155,6 +159,7 @@ h1, h2 {
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
+	height: 100%;
 }
 
 .contact-bg .row {
