@@ -8,37 +8,18 @@ h1, h2 {
 	color: #19539c;
 }
 
-#content {
+.content {
+	margin-top: 4rem;
 	min-height: 100vh;
 }
 
-#index-logo {
-	height: auto;
-	padding-top: .8rem;
-	background: white !important;
-}
-
-#index-logo .navbar-brand {
-	margin: 0 auto;
-	padding: 0;
-}
-
-#index-menu {
-	height: 35px;
-	padding: 1.8rem 0;
-}
-
-#index-menu .navbar-nav {
-	margin: 0 auto;
-}
-
-#index-menu, #menu-bar {
+.menu-bar {
 	background: white !important;
 	text-transform: uppercase;
 	box-shadow: 0 8px 8px rgba(0, 0, 100, .15);
 }
 
-#menu-bar .nav-brand {
+.menu-bar .nav-brand {
 	text-decoration: none;
 	font-family: "Cabin", sans-serif;
 	font-weight: bold;
@@ -53,16 +34,16 @@ h1, h2 {
 	-moz-transition: all .2s;
 }
 
-#menu-bar .nav-brand img {
+.menu-bar .nav-brand img {
 	margin-right: .8em;
 }
 
-#menu-bar .nav-brand:hover {
+.menu-bar .nav-brand:hover {
 	background-color: #FF751C;
 	color: white;
 }
 
-#menu-bar .navbar-nav {
+.menu-bar .navbar-nav {
 	height: 35px;
 	padding-top: 0;
 	margin-top: 0;
@@ -98,46 +79,6 @@ h1, h2 {
 	color: #0253A0;
 }
 
-#content {
-	margin-top: 4rem;
-	min-height: 100vh;
-}
-
-#news-aside h2 {
-	margin: 0;
-	font-size: 2em;
-	text-transform: uppercase;
-}
-
-.news-article {
-	display: inline-flex;
-	border-bottom: 2px solid #afafaf;
-	min-height: 130px;
-	margin-top: 1.2rem;
-}
-
-.news-thumb img {
-	height: 115px;
-	width: 115px;
-	border-radius: 10px;
-}
-
-.news-info {
-	height: 100%;
-	padding-top: .8rem;
-	padding-bottom: 1rem;
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-
-.news-info h3 {
-	font-size: 1rem !important;
-}
-
-.news-info i {
-	color: #ff6300;
-}
-
 .main-title-bg {
 	background-color: rgba(255, 255, 255, .4);
 	padding: 2rem 0;
@@ -151,68 +92,23 @@ h1, h2 {
 	letter-spacing: 4px;
 }
 
-.contact-bg {
-	margin: 0;
-	padding: 0 auto;
-	padding-bottom: 2rem;
-	background-image: url(../img/contact-bg.jpg);
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-	height: 100%;
-}
-
-.contact-bg .row {
-	margin: 0 auto;
-}
-
-#form-section {
-	padding-top: 1rem;
-	border: 3px solid rgba(255, 255, 255, .5);
-}
-
-#form-section, #c-info-section {
-	margin-top: 4rem;
-	background: none;
-}
-
-#c-info-card {
-	background-color: rgba(240, 240, 240, .5);
-	padding: 2rem;
-	width: 100%;
-}
-
-#c-info-section p {
-	margin: 0;
-}
-
-.c-info-group {
-	margin-bottom: 1rem;
-}
-
-.c-info-title {
-	text-transform: uppercase;
-	font-weight: bold;
-	color: #ff6300;
-}
-
-#footer {
+.footer {
 	color: white;
 	text-align: center;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 }
 
-#footer a {
+.footer a {
 	color: inherit;
 	font-size: 1.5rem;
 	padding: 0 10px;
 }
 
-#footer a:hover {
+.footer a:hover {
 	color: rgba(255, 255, 255, .7);
 }
 
-#footer p {
+.footer p {
 	margin: 0;
 }

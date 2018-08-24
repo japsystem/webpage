@@ -16,7 +16,7 @@
 <body>
 
 	<!--TOP BAR-->
-	<nav class="navbar fixed-top navbar-expand-md navbar-light bg-light" id="menu-bar">
+	<nav class="menu-bar navbar fixed-top navbar-expand-md navbar-light bg-light">
 		<div class="container">
 			<a class="nav-brand" href="./index.html">
 				<img src="./img/navbarLogo.png" width="40" height="40">
@@ -56,25 +56,44 @@
 	</nav>
 
 	<!--CONTENT-->
-	<div id="content">
+	<div class="content">
 		<div class="main-title-bg">
 			<div class="container">
 				<h1 class="main-title">Portafolio</h1>
 			</div>
 		</div>
 
-		<div class="jumbotron jumbotron-fluid" id="product-1">
+		<section class="product" id="product-1">
 			<div class="container">
-					<h2 class="display-4">Calculadora de Bolívares Soberanos</h2>
-					<p class="lead col-md-7">Simple aplicación para convertir valores monetarios entre el Bolívar Fuerte y el Bolívar Soberano en Venezuela.</p>
-					<p class="lead col-md-7">La Reconversión Monetaria en Venezuela consiste en el cambio de escala monetaria y de todo lo que se exprese en bolívares, con la eliminación de cinco ceros se facilitarán las transacciones económicas y comerciales.</p>
-					<p class="lead col-md-7">La Reconversión Monetaria entra en vigencia a partir del 20 de agosto de 2018 con una nueva denominación monetaria llamada Bolívar Soberano.</p>
+					<div class="row">
+						<div class="product-info col-md-8">
+							<div class="row">
+								<div class="col-md-2">
+									<img src="./img/bssLogo.png" width="100px">
+								</div>
+								<div class="col-md-10">
+									<h2 class="product-title">Calculadora Bolívar Soberano</h2>
+								</div>
+							</div>
+
+							<p>Simple aplicación para convertir valores monetarios entre el Bolívar Fuerte y el Bolívar Soberano en Venezuela.</p>
+							<p>La Reconversión Monetaria en Venezuela consiste en el cambio de escala monetaria y de todo lo que se exprese en bolívares, con la eliminación de cinco ceros se facilitarán las transacciones económicas y comerciales.</p>
+							<p>La Reconversión Monetaria entra en vigencia a partir del 20 de agosto de 2018 con una nueva denominación monetaria llamada Bolívar Soberano.</p>
+
+							<div class="product-link">
+								<a href="https://play.google.com/store/apps/details?id=com.japsystem.bolivarsoberano" target="_blank"><img src="./img/googleplay_latam_store.png" height="70px"></a>
+							</div>
+						</div>
+						<div class="product-img col-md-4">
+							<img src="./img/phone.png">
+						</div>
+					</div>
 			</div>
-		</div>
+		</section>
 	</div>
 
 	<!--FOOTER-->
-	<div class="bg-secondary" id="footer">
+	<div class="footer bg-secondary">
 		<div id="social-media">
 			<a href="https://www.facebook.com/profile.php?id=100025541832060" target="_blank"><i class="fab fa-facebook-f"></i></a>
 			<a href="https://twitter.com/saintjapsystem" target="_blank"><i class="fab fa-twitter"></i></a>

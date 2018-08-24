@@ -1,7 +1,60 @@
+.main-title-bg {
+	background: #dfdfff;
+}
+
 #product-1 {
-	height: 28rem;
-	background-image: url(../img/phone.png);
-	background-size: 25%;
-	background-repeat: no-repeat;
-	background-position: 90% 10%;
+	background: #308a57;
+}
+
+.product-info {
+	margin: 2rem 0;
+	text-align: center;
+}
+
+.product-title {
+	font-family: "Work Sans";
+	font-size: 3em;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #e6e134;
+	margin-bottom: 2rem;
+}
+
+.product-info p {
+	color: #fff;
+	font-size: 1.2em;
+}
+
+.product-link {
+	margin-top: 3rem;
+}
+
+.product-img {
+	text-align: center;
+}
+
+.product-img img {
+	height: 45rem;
+	margin-bottom: 2rem;
+}
+
+@media (min-width: 992px) {
+	#product-1 {
+		height: 38rem;
+		overflow: hidden;
+	}
+
+	.product-info {
+		margin: 5rem 0;
+		text-align: left;
+	}
+
+	.product-link {
+		text-align: right;
+	}
+
+	.product-img img {
+		height: 45rem;
+		margin: 5rem 0;
+	}
 }

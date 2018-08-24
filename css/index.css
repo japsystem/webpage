@@ -1,0 +1,25 @@
+#index-logo {
+	height: auto;
+	padding-top: .8rem;
+	background: white !important;
+}
+
+#index-logo .navbar-brand {
+	margin: 0 auto;
+	padding: 0;
+}
+
+#index-menu {
+	height: 35px;
+	padding: 1.8rem 0;
+}
+
+#index-menu .navbar-nav {
+	margin: 0 auto;
+}
+
+#index-menu {
+	background: white !important;
+	text-transform: uppercase;
+	box-shadow: 0 8px 8px rgba(0, 0, 100, .15);
+}
