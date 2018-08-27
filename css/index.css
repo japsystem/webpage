@@ -23,3 +23,38 @@
 	text-transform: uppercase;
 	box-shadow: 0 8px 8px rgba(0, 0, 100, .15);
 }
+
+#news-aside h2 {
+	margin: 0;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+.news-article {
+	display: inline-flex;
+	border-bottom: 2px solid #afafaf;
+	min-height: 130px;
+	margin-top: 1.2rem;
+}
+
+.news-thumb img {
+	height: 115px;
+	width: 115px;
+	border-radius: 10px;
+}
+
+.news-info {
+	height: 100%;
+	padding-top: .8rem;
+	padding-bottom: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.news-info h3 {
+	font-size: 1rem !important;
+}
+
+.news-info i {
+	color: #ff6300;
+}
