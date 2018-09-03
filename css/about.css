@@ -1,3 +1,56 @@
 .main-title-bg {
 	background-color: #e9e9fd;
 }
+
+.about-us, .mission, .vision {
+	text-align: center;
+	padding: 8rem 0;
+}
+
+.mission, .vision {
+	padding-left: 2rem;
+	padding-right: 2rem;
+	color: #ddddff;
+}
+
+.about-bg {
+	background: url(../img/about-bg.jpg);
+	background-position: 68% 20%;
+	background-attachment: fixed;
+}
+
+h2 {
+	font-size: 3.5em;
+}
+
+hr {
+	border-top: 1px solid #fff;
+}
+
+.about-bg h2 {
+	color: #19539c;
+}
+
+.about-us hr {
+	border-color: #fff;
+}
+
+.mission-bg {
+	background: rgba(25, 83, 156, .65);
+}
+
+.mission h2, .vision h2 {
+	color: #fff;
+}
+
+.mission hr {
+	border-color: #FF751C;
+}
+
+.vision-bg {
+	background: rgba(255, 117, 28, .65);
+}
+
+.vision hr {
+	border-color: #19539c;
+}
