@@ -1,3 +1,17 @@
+.main-title span {
+	background-color: rgba(255, 255, 255, .4);
+}
+
+.content {
+	background-image: url(../img/contact-bg.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.row {
+	margin: 0 auto;
+}
+
 #news-aside h2 {
 	margin: 0;
 	font-size: 2em;
@@ -31,21 +45,6 @@
 
 .news-info i {
 	color: #ff6300;
-}
-
-.contact-bg {
-	margin: 0;
-	padding: 0 auto;
-	padding-bottom: 2rem;
-	background-image: url(../img/contact-bg.jpg);
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-	height: 100%;
-}
-
-.contact-bg .row {
-	margin: 0 auto;
 }
 
 #form-section {

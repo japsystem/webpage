@@ -1,0 +1,22 @@
+.main-title h1 {
+	padding: 2rem 0;
+}
+
+.jumbotron {
+	margin-top: 2rem;
+}
+
+.card {
+	margin: 2rem .5rem;
+	overflow: hidden;
+	/*box-shadow: 0 5px 8px rgba(0, 0, 100, .15);*/
+	border: none;
+}
+
+.card-img-top {
+	border-radius: 50%;
+}
+
+.card-title {
+	font-weight: bold;
+}
