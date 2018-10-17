@@ -16,108 +16,55 @@
 <body>
 
 	<!--TOP BAR-->
-	<nav class="navbar navbar-light bg-light" id="index-logo">
-	 	<a class="navbar-brand" href="./index.html">
-			<img src="./img/banner.jpg" height="100" alt="JAP System">
-		</a>
-	</nav>
-
-	<nav class="navbar sticky-top navbar-expand-md navbar-light bg-light" id="index-menu">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="toggler-icon"><hr></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			<ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link" href="#">Inicio</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="about.html">Nosotros</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="services.html">Servicios</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="portfolio.html">Portafolio</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="contact.html">Contacto</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
-
-	<!--LANGUAGE SWITCH-->
-	<nav class="navbar fixed-bottom" id="lang-switch">
-		<div class="dropup ml-auto">
-			<button class="btn btn-sm btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Idioma (Español)</button>
-			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-				<a class="dropdown-item" href="#">Español</a>
-				<a class="dropdown-item" href="#">English</a>
- 			 </div>
-		</div>
-	</nav>
-
-	<!--CONTENT-->
-	<div class="content container">
-		<div class="row">
-			<div class="col-8" id="i-content-1">
-				<h1>Content Goes Here...</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+		<div class="container">
+			<!--DESKTOP BAR-->
+			<div class="collapse navbar-collapse desktopNav" id="navLeft">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="./about.html">Nosotros</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./services.html">Servicios</a>
+					</li>
+				</ul>
 			</div>
-			<section class="col-4" id="news-aside">
-				<h2>Novedades</h2>
-				<div class="news-article">
-					<div class="news-thumb">
-						<img src="./img/news-1.jpg">
-					</div>
-					<div class="news-info">
-						<h3>info goes here. I'm just extending this to see how far it can go.</h3>
-						<i>january 1, 2018</i>
-					</div>
-				</div>
-				<div class="news-article">
-					<div class="news-thumb">
-						<img src="./img/news-2.jpg">
-					</div>
-					<div class="news-info">
-						<h3>info goes here. I'm just extending this to see how far it can go.</h3>
-						<i>january 1, 2018</i>
-					</div>
-				</div>
-				<div class="news-article">
-					<div class="news-thumb">
-						<img src="./img/news-1.jpg">
-					</div>
-					<div class="news-info">
-						<h3>info goes here. I'm just extending this to see how far it can go.</h3>
-						<i>january 1, 2018</i>
-					</div>
-				</div>
-			</section>
-		</div>
-	</div>
 
-	<!--FOOTER-->
-	<footer class="bg-secondary">
-		<div id="social-media">
-			<a href="https://www.facebook.com/profile.php?id=100025541832060" target="_blank"><i class="fab fa-facebook-f"></i></a>
-			<a href="https://twitter.com/saintjapsystem" target="_blank"><i class="fab fa-twitter"></i></a>
-			<a href="https://www.instagram.com/soportejapsystem" target="_blank"><i class="fab fa-instagram"></i></a>
+			<a class="navbar-brand mx-auto" href="./index.html"><img src="./img/banner.jpg"></a>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mobileNavbar" aria-controls="mobileNavbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse desktopNav" id="navRight">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="./portfolio.html">Portafolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./services.html">Contacto</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="collapse" id="mobileNavbar">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="./about.html">Nosotros</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./services.html">Servicios</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./portfolio.html">Portafolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./services.html">Contacto</a>
+					</li>
+				</ul>
+			</div>
 		</div>
-		<p>© 2018 - Inversiones JAP System C.A.</p>
-	</footer>
+	</nav>
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>

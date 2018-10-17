@@ -1,60 +1,34 @@
-#index-logo {
-	height: auto;
-	padding-top: .8rem;
-	background: white !important;
+body {
+	background: #ccc;
 }
 
-#index-logo .navbar-brand {
-	margin: 0 auto;
+.navbar {
 	padding: 0;
+	background: transparent !important;
+	position: relative;
 }
 
-#index-menu {
-	height: 35px;
-	padding: 1.8rem 0;
+.navbar-brand img {
+	height: 80px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
 }
 
-#index-menu .navbar-nav {
-	margin: 0 auto;
+.navbar-brand {
+	background: #fff;
+	padding: 20px 0;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
 }
 
-#index-menu {
-	background: white !important;
+#navLeft .navbar-nav .nav-item {
+	margin-right: 2rem;
+}
+
+#navRight .navbar-nav .nav-item {
+	margin-left: 2rem;
+}
+
+.navbar-nav .nav-item .nav-link {
 	text-transform: uppercase;
-	box-shadow: 0 8px 8px rgba(0, 0, 100, .15);
-}
-
-#news-aside h2 {
-	margin: 0;
-	font-size: 2em;
-	text-transform: uppercase;
-}
-
-.news-article {
-	display: inline-flex;
-	border-bottom: 2px solid #afafaf;
-	min-height: 130px;
-	margin-top: 1.2rem;
-}
-
-.news-thumb img {
-	height: 115px;
-	width: 115px;
-	border-radius: 10px;
-}
-
-.news-info {
-	height: 100%;
-	padding-top: .8rem;
-	padding-bottom: 1rem;
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-
-.news-info h3 {
-	font-size: 1rem !important;
-}
-
-.news-info i {
-	color: #ff6300;
 }
