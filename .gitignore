@@ -98,3 +98,6 @@ Thumbs.db
 !.gitignore
 !.editorconfig
 !.phpcs.xml.dist
+
+# Firebase files
+firebase.json
