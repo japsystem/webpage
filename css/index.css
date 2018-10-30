@@ -5,7 +5,10 @@ body {
 .navbar {
 	padding: 0;
 	background: transparent !important;
-	position: relative;
+}
+
+.mobileNavbar {
+	display: block;
 }
 
 .navbar-brand img {
@@ -31,4 +34,5 @@ body {
 
 .navbar-nav .nav-item .nav-link {
 	text-transform: uppercase;
+	color: rgba(250, 250, 250, .8);
 }
