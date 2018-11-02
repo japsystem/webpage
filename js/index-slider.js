@@ -1,7 +1,4 @@
-$(function(){
-	$('#slides').superslides({
-		play: 5000,
-		animation: "fade",
-		
-	});
+$(".carousel").carousel({
+	interval: 3500;
+	ride: true;
 });
