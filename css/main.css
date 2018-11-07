@@ -71,7 +71,7 @@ h1, h2 {
 .navbar-nav .nav-item .nav-link:hover {
 	color: white;
 	background-color: #0253A0;
-	border: 1px solid rgba(2, 83, 160, .5);
+	border-color: #0253A0;
 	border-radius: 7px;
 }
 
