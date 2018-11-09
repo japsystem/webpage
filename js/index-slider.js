@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('.carousel').carousel({
-		interval: 3000,
+		interval: 2700,
 		ride: true,
 		pause: false,
 		wrap: false

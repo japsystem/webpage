@@ -4,12 +4,16 @@
 
 .jumbotron {
 	margin-top: 2rem;
+	text-align: right;
+	background-image: url(../img/woman-tablet.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
 
 .card {
 	margin: 2rem .5rem;
 	overflow: hidden;
-	/*box-shadow: 0 5px 8px rgba(0, 0, 100, .15);*/
 	border: none;
 }
 

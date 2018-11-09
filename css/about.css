@@ -5,17 +5,17 @@
 .about-us, .mission, .vision {
 	text-align: center;
 	padding: 8rem 0;
+	color: #fff;
 }
 
 .mission, .vision {
 	padding-left: 2rem;
 	padding-right: 2rem;
-	color: #ddddff;
 }
 
 .about-bg {
 	background: url(../img/about-bg.jpg);
-	background-position: 68% 20%;
+	background-size: cover;
 	background-attachment: fixed;
 }
 
@@ -36,7 +36,7 @@ hr {
 }
 
 .mission-bg {
-	background: rgba(25, 83, 156, .65);
+	background: #19539c;
 }
 
 .mission h2, .vision h2 {
@@ -48,7 +48,7 @@ hr {
 }
 
 .vision-bg {
-	background: rgba(255, 117, 28, .65);
+	background: #ff751c;
 }
 
 .vision hr {
