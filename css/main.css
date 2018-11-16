@@ -10,7 +10,6 @@ h1, h2 {
 
 .content {
 	margin-top: 4rem;
-	min-height: 100vh;
 	padding-bottom: 10rem;
 }
 
@@ -95,7 +94,7 @@ h1, h2 {
 	padding-bottom: 2rem;
 	text-align: center;
 	text-transform: uppercase;
-	color: #FF751C !important;
+	color: #19539c !important;
 	letter-spacing: 4px;
 }
 
@@ -124,4 +123,12 @@ footer {
 
 footer p {
 	margin: 0;
+}
+
+.footer-privacy-policy {
+	color: #ff751c;
+}
+
+.footer-privacy-policy:hover {
+	color: #c1550f;
 }
