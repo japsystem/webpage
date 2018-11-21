@@ -17,10 +17,7 @@
 	padding-bottom: 0;
 }
 
-.about-bg {
-	background: url(../img/about-bg.jpg);
-	background-size: cover;
-	background-attachment: fixed;
+.about-info {
 	padding-bottom: 10rem;
 }
 

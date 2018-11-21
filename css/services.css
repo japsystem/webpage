@@ -5,10 +5,7 @@
 .jumbotron {
 	margin-top: 2rem;
 	text-align: right;
-	background-image: url(../img/woman-tablet.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
+	background: transparent;
 }
 
 .card {
